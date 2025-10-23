@@ -1,0 +1,59 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(255, 234, 255)
+    padding: 2px;
+	margin: 0;
+	color: #b776be;
+}
+
+body{
+	background-color: rgb(172, 64, 64);
+}
+
+main{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	min-height: 80vh;
+}
+
+li a{
+	margin-block: 0.5rem;
+	display: inline-block;
+	text-decoration: none;
+	background-color: rgb(29, 44, 43);
+	padding-inline: 1rem;
+	padding-block: 0.7rem;
+	border-radius: 5px;
+	border: solid 1px rgb(6, 174, 165);
+	transition: all .3s ease-in-out;
+}
+
+li a:hover{
+	background-color: rgb(128, 13, 162);
+	border: solid 1px rgb(219, 144, 246);
+
+	transform: scale(1.1) rotate(2deg);
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+.titulo h1{
+     font-family: "Righteous", sans-serif;
+	font-size: 4rem;
+	color: rgb(255, 255, 255);
+    justify-content: center;
+     font-style: bold;
+     padding: 1rem;
+}
+
+.titulo p{
+	text-align: center;
+	font-style: italic;
+	font-size: .8rem;
+}
