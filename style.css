@@ -1,13 +1,12 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
     border: 1px solid rgb(255, 234, 255)
-    padding: 2px;
 	margin: 0;
 	color: #b776be;
 }
 
 body{
-	background-color:rgb(0, 0, 0)
+	background: linear-gradient(rgba(48, 0, 39, 1), rgba(77, 0, 64, 1), rgba(128, 13, 162, 1));
 }
 
 main{
@@ -15,25 +14,28 @@ main{
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	gap: 2rem;
-	min-height: 80vh;
+	gap: 4rem;
+	min-height: 100vh;
 }
 
 li a{
+	justify-content: center;
 	margin-block: 0.5rem;
 	display: inline-block;
 	text-decoration: none;
-	background-color: rgb(77, 0, 64);
+	background-color: rgb(139, 0, 119);
 	padding-inline: 1rem;
 	padding-block: 0.7rem;
-	border-radius: 5px;
-	border: solid 1px rgb(159, 0, 212);
+	border-radius: 10px;
 	transition: all .3s ease-in-out;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bold;
 }
 
 li a:hover{
 	background-color: rgb(128, 13, 162);
 	border: solid 1px rgb(219, 144, 246);
+	box-shadow: 1px 3px 3px rgb(172, 0, 100);
 }
 
 ul{
@@ -43,18 +45,20 @@ ul{
 
 .titulo h1{
      font-family: "Righteous", sans-serif;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	color: rgb(255, 255, 255);
     justify-content: center;
      font-style: bold;
      text-align: center;
+	  margin-bottom: 0.2rem; 
 }
 
 .titulo p{
 	text-align: center;
 	font-style: italic;
-	font-size: 1rem;
+	font-size: 1.5rem;
     color: rgb(255, 255, 255);
+	margin-top: 0;
 }
 
 .nav a{
